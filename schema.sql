@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS tabla1;
 CREATE TABLE covid_cases (
 	id SERIAL PRIMARY KEY,
 	"Date" TEXT,
-	"Total Cases" INT,
+	"Total_Cases" INT,
 	"Total Deaths" INT,
 	"Total Recovered" INT
 );
@@ -19,9 +19,9 @@ CREATE TABLE tabla1 (
 	"Fecha" TEXT,
 	"Cierre" NUMERIC, 
 	"Apertura" NUMERIC,
-	"Máximo" NUMERIC, 
-	"Mínimo" NUMERIC, 
-	"Vol." NUMERIC,
-	"% var." NUMERIC,
+	"Maximo" NUMERIC, 
+	"Minimo" NUMERIC, 
+	"Vol." TEXT,
+	"Var" TEXT,
 	"DGS10" NUMERIC
 );
